@@ -1,7 +1,4 @@
-"""
-Residual Prototype Alignment Network (RPAN) for Cross-Machine Zero-Shot Anomaly Detection on SMD Dataset
-With Best Model Selection - Each epoch evaluates F1 on test set
-"""
+
 import pickle
 import torch
 import torch.nn as nn
@@ -738,12 +735,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Mean Best F1: 0.6250 config = {
-    #         'data_path': 'raw_data/ASD',
-    #         'window_size': 11,
-    #         'hidden_dim': 128,
-    #         'epochs': 100,
-    #         'use_real_data': True
-    #     }
-    # 0.6128 7
-    # Mean Best F1: 0.6573 'window_size': 9
+    
